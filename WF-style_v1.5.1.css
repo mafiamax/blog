@@ -1,0 +1,576 @@
+﻿/*
+Theme name: White Freedom
+Theme URI: http://mafiamax.com
+Description: MaFiAMaX Blog! | Genellikle Blogger Ipular, CSS, Web ve kisisel konularn konusulduu bir blog.
+v1.0: 13.09.2008
+v1.1: 07.05.2010
+v1.2: 30.08.2010
+v1.3: 02.09.2010
+v1.3.1: 11.12.2011
+v1.4: 04.08.2013
+v1.4.1: 11.05.2014
+v1.5: 07.06.2015
+v1.5.1: 30.08.2015 - Bağlantı linkleri değiştirildi.
+Designer | Author: Erhan MOLLAOGLU
+Tags: mafiamax, two columns
+*/
+
+#HTML3 {
+  color: #FFFFFF;
+  font: bold 125% "Trebuchet MS", Arial, sans-serif;
+  background-color: #DC1100;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+body {
+  background: #EDEDE6;
+  text-align: center;
+  margin: 0;
+  line-height: 1.5em;
+  font: x-small Trebuchet MS, Verdana, Arial, Sans-serif;
+  color: #555555;
+  font-size/* */:/**/small;}
+
+/* Reset Layout
+----------------------------------------------- */
+body#layout #main-wrap,
+body#layout #sidebar-wrap,
+body#layout #header-wrapper {
+  margin-top: 0;}
+body#layout #header, body#layout #header-wrapper,
+body#layout #outer-wrapper {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;}
+body#layout #outer-wrapper {
+  width: 1024px;}
+body#layout #footer-wrap {
+  padding-top: 0;}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;}
+.clearfix {
+  display: inline-block;}
+html[xmlns] .clearfix {
+  display: block;}
+* html .clearfix {
+  height: 1%;}
+
+/* Page Structure
+----------------------------------------------- */
+#up {
+  margin: 0;}
+#outer-wrapper {
+  width: 1024px;
+  margin: 0 auto;
+  text-align: left;
+  font :normal normal 100% Arial, sans-serif;}
+#content-wrapper {
+  margin: 0px auto;
+  padding: 10px;
+  background-color:#DEDEDE;}
+#main-wrap {
+  border: 5px solid #EDEDE6;
+  width: 700px;
+  float: left;
+  background: #FFFFFF;
+  color: #555555;
+  font-size: 97%;
+  line-height: 1.5em;
+  overflow: hidden;}
+#main {
+  margin: 0;
+  padding: 0;}
+.main .widget {
+  margin: 0 10px 0 10px;}
+.main .Blog {
+  margin: 0;
+  padding: 10px 10px 10px 10px;}
+.widget-content {
+  margin: 0;}
+#navbar-iframe-container {
+  height: 0;
+  visibility: hidden;
+  display: none}
+
+/* Links
+----------------------------------------------- */
+a:link {
+  color: #555555;
+  text-decoration: none;}
+a:visited {
+  color: #555555;
+  text-decoration: none;}
+a:hover {
+  color: #DC1100;
+  text-decoration: underline;}
+a img {
+  border-width: 0;}
+abbr {
+  border-bottom: 1px dotted #DC1100;
+  cursor: help;}
+
+/* Blog Header
+----------------------------------------------- */
+#header-wrapper {
+  border-bottom: 5px solid #DC1100;
+  background: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;}
+/*Bu aradaki tanmlamalar XHTML'de u an iin yok*/
+#header h1 {
+  margin: 0;
+  padding: 10px 30px 5px;
+  line-height: 1.2em;
+  font: bold 200% "Trebuchet MS", Arial, sans-serif;}
+#header a, #header a:visited {
+  text-decoration: none;
+  color: #FFFFFF;}
+#header a:hover {
+  text-decoration: none;
+  color: #000000;}
+#header .description {
+  margin: 0;
+  padding: 5px 30px 7px;
+  line-height: 1.5em;
+  font: 100% 'Trebuchet MS',Verdana,Arial,Sans-serif;}
+/**/
+#header-pic{
+  margin: 5px auto;
+}
+
+/* Menu
+----------------------------------------------- */
+#menu {
+  height: 100%;
+  background-color: #222222;}
+#menu ul.nav {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  list-style: none;}
+#menu ul.nav li {
+  list-style-type: none;
+  display: inline;
+  float: left;
+  font: bold 13px 'Trebuchet MS';}
+#menu ul.nav li a, #menu ul li a:visited {
+  display: block;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;}
+#menu ul.nav li a:hover {
+  color:#DC1100;
+  background-color: #FFFFFF;
+  text-decoration: none;}
+#menu ul.social {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  list-style: none;}
+#menu ul.social li {
+  list-style-type: none;
+  display: inline;
+  float: right;}
+#menu ul.social li a, #menu ul.social li a:visited {
+  display: block;
+  margin: 0 30px 0 0;
+  padding: 5px 0;
+  text-align: center;
+  text-decoration: none;}
+#menu ul.social li a:hover {
+  text-decoration: none;}
+
+/* Search
+----------------------------------------------- */
+.searchform {
+  float: right;
+  display: inline; /* IE6'daki iki kat margin sorunu iin */
+  background-color: #222222;
+  border: none;
+  margin: 0 10px 0 0;
+  padding: 10px;}
+.searchform p {
+  margin: 0;
+  padding: 0;}
+.searchform input.textbox {
+  margin: 0;
+  padding: 5px 20px 5px 2px;
+  width: 260px;
+  border: 3px solid #5CAED7;
+  background: #FFFFFF url(https://dl.dropboxusercontent.com/u/79731666/mafiamax.com/search-button_wf.png) no-repeat center right;
+  color: #555555;
+  font-weight: bold;
+  font-style: italic;}
+
+/* Posts
+----------------------------------------------- */
+.post {
+  margin: 0 0 15px 0;
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid #E1E1E1;
+  font-size: 14px;}
+.post h2 {
+  margin: 0;
+  padding-bottom: 5px;
+  color: #FF6666;
+  border-bottom: 2px solid #EFEFEF;
+  font-size: 16px;}
+.post h3, .post h3 a {
+  margin: 0;
+  line-height: 1.5em;
+  display: block;
+  padding: 2px 5px 2px 5px;
+  background-color: #ECECEC;
+  color: #000000;
+  font: 22px "Trebuchet MS", sans-serif;
+  border-left: 5px solid #555555;
+  text-decoration: none;}
+.post h3 a:hover {
+  border-left: 5px solid #DC1000;
+  color: #DC1100;
+  text-decoration: none;}
+.post-body {
+  margin: 0;
+  padding: 5px 0px 5px 0px;
+  font-family: Segoe UI;}
+.post-body a, .post-body a:visited {
+  background-color: #FFFFC5;
+  color: #333333;}
+.post-body a:hover {
+  background-color: #FFFFFF;
+  color: #000000;}
+.post-body pre {
+  background: transparent url(https://dl.dropboxusercontent.com/u/79731666/mafiamax.com/kod.png) no-repeat scroll 2px 0px;
+  padding-top: 32px;
+  padding-left: 2px;}
+.post-body pre code {
+  background: #EDEDE6;
+  display: block;
+  width: 560px;
+  overflow: auto;
+  margin: 0;
+  padding: 5px;
+  color: #555555;}
+html>body .post-body {
+  border-bottom-width: 0;}
+.post p {
+  margin: 0 0 .75em;}
+.uncustomized-post-template .post-footer {
+  text-align: left;}
+.uncustomized-post-template .post-author,
+.uncustomized-post-template .post-timestamp {
+  display: block;
+  float: left;
+  text-align: left;
+  margin-right: 4px;}
+.post img {
+  margin: 0 0 -5px 0;
+  padding: 0;
+  border: none}
+.post blockquote {
+  margin: 10px 0 10px 0;
+  border: 1px solid #F2F2F2;
+  padding: 5px 5px 5px 40px;
+  font-style: italic;
+  background: #FAFAFA url(https://dl.dropboxusercontent.com/u/79731666/mafiamax.com/quote.gif) no-repeat 5px 5px;}
+.comments blockquote {
+  margin: 0;}
+div.warning {
+  margin: 5px 0 0 0;
+  padding: 5px 10px 5px 80px;
+  text-align: justify;
+  min-height: 64px;
+  border: 3px solid #EEEEEE;
+  background: #FFFFC5 url(https://dl.dropboxusercontent.com/u/79731666/mafiamax.com/info-icon.png) no-repeat 5px 50%;}
+div.video {
+  margin: 10px 0;
+  text-align: center;}
+div.adsense {
+  margin: 5px;}
+div.warning a, div.warning a:hover {
+  text-decoration: underline;
+  color: #555555;
+  background-color: #FFFFC5;}
+.post ol li, .post ul li {
+  margin: 5px 10px;
+  padding:0;}
+
+ /* Post-Footer
+----------------------------------------------- */
+.post-footer {
+  margin: 0;
+  padding: 2px 14px 2px 0;
+  font-size: 12px;
+  line-height: 1.6em;
+  color: #777777;}
+.post-footer p {
+  margin: 0;}
+html>body .post-footer {
+  border-bottom-color: transparent;}
+.post-footer a {
+  color: #777777;}
+.post-footer a:hover {
+  color: #DC1100;
+  text-decoration: underline;}
+span.post-labels {
+  background: url(https://dl.dropboxusercontent.com/u/79731666/mafiamax.com/categories_wf.png) no-repeat center left;
+  padding: 5px 10px 5px 35px;}
+span.post-date {
+  background: url(https://dl.dropboxusercontent.com/u/79731666/mafiamax.com/date_wf.png) no-repeat center left;
+  padding: 5px 10px 5px 35px;}
+span.comment {
+  background: url(https://dl.dropboxusercontent.com/u/79731666/mafiamax.com/comment_wf.png) no-repeat center left;
+  padding: 5px 10px 5px 35px;}
+span.permalink {
+  background: url(https://dl.dropboxusercontent.com/u/79731666/mafiamax.com/permalink_wf.png) no-repeat center left;
+  padding: 5px 10px 5px 35px;}
+span.jump-link {
+  background: url(https://dl.dropboxusercontent.com/u/79731666/mafiamax.com/fullpost_wf.png) no-repeat center left;
+  padding: 5px 10px 5px 35px;}
+span.email-post {
+  background: url(https://dl.dropboxusercontent.com/u/79731666/mafiamax.com/email-post_wf.png) no-repeat center left;
+  padding: 5px 10px 5px 35px;}
+span.bookmark {
+  background: url(https://dl.dropboxusercontent.com/u/79731666/mafiamax.com/bookmark_wf.png) no-repeat center left;
+  padding: 5px 10px 5px 35px;}
+#blog-pager-newer-link {
+  float: left;
+  margin-left: 13px;
+  font-size: 18px;
+  background-color: #EEEEEE;}
+#blog-pager-older-link {
+  float: right;
+  margin-right: 13px;
+  font-size: 18px;
+  background-color: #EEEEEE;}
+#blog-pager {
+  text-align: center;
+  font-size: 18px;
+  background-color: #EEEEEE;}
+
+/* Comments
+----------------------------------------------- */
+#comments {
+  margin: 0;
+  padding: 0;
+  line-height: 16px;}
+#comment-info {
+  margin: 0;
+  padding: 20px 10px 20px 80px;
+  font-size: 16px;
+  text-align: justify;
+  border: 3px solid #EEEEEE;
+  color: #000000;
+  background: #FFFFC5 url(https://dl.dropboxusercontent.com/u/79731666/mafiamax.com/user-comment.png) no-repeat 5px 50%;}
+#post-share {
+  margin: 0;
+  padding: 20px 10px 20px 80px;
+  font-size: 16px;
+  text-align: justify;
+  border: 3px solid #EEEEEE;
+  color: #000000;
+  background: #FFFFC5 url(https://dl.dropboxusercontent.com/u/79731666/mafiamax.com/share_post.png) no-repeat 5px 50%;}
+#comment-info a {
+  text-decoration: underline;
+  color: #000000;}
+.comments .comments-block {
+  margin: 0;
+  padding: 0;}
+.comment-content {
+  margin:0;
+  padding: 5px;
+  border: 2px solid #DEDEDE;
+  background-color: #EFEFEF;}
+.comment-body a {
+  text-decoration: underline;}
+.comment-body p {
+  margin: 0;}
+.comment-form {
+  margin: 5px 10px 5px 0;
+  width: 580px;}
+.comment-header, .comment-header a {
+  font-size: 12px;
+  margin: 0;
+  padding: 10px;
+  background-color: #333333;
+  color:#FFFFFF}
+.comments .comment .comment-actions a {
+  padding: 5px;
+  background-color: #DC1000;
+  color: #FFFFFF;
+  border-radius: 10px; /* Standart */
+  -moz-border-radius: 10px; /* Firefox */
+  -webkit-border-radius: 10px; /* Safari ve Chrome */}
+comments .comment .comment-actions a:hover {
+  padding: 5px;
+  background-color: #DC1000;
+  color: #333333;
+  text-decoration: none;
+  border-radius: 10px; /* Standart */
+  -moz-border-radius: 10px; /* Firefox */
+  -webkit-border-radius: 10px; /* Safari ve Chrome */}
+.comments .continue a, .comments .continue a:hover {
+  padding: 5px;
+  background-color: #DC1000;
+  color: #FFFFFF;
+  text-decoration: none;}
+.comments .comments-content .datetime {
+  float: right;}
+.deleted-comment {
+  font-style: italic;
+  color: gray;}
+.comment-paging, .comment-paging a {
+  margin: 20px 0;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #DC1100;
+  color: #FFFFFF;}
+
+/* Profile
+----------------------------------------------- */
+.profile-img {
+  float: left;
+  margin: 5px 5px 5px 0;
+  border: 4px solid #BBBBBB;}
+.profile-datablock {
+  margin: 0 15px .5em 0;
+  padding-top: 8px;}
+.profile-link {
+  background: url(http://www.blogblog.com/rounders3/icon_profile.gif) no-repeat 0 .1em;
+  padding-left: 15px;
+  font-weight: bold;}
+.profile-textblock {
+  clear: both;
+  margin: 0;}
+/* Sidebar Boxes
+----------------------------------------------- */
+.sidebar .clear, .main .widget .clear {
+  clear: both;}
+#sidebar-wrap {
+  border: 5px solid #EDEDE6;
+  width: 280px;
+  float: right;
+  color: #555555;
+  background-color: #FFFFFF;
+  font-size: 97%;
+  line-height: 1.5em;
+  overflow: hidden;}
+#sidebar h2 {
+  color:#000000;
+  font: bold 125% "Trebuchet MS", Arial, sans-serif;
+  line-height: 1.5em;
+  border-bottom: 2px solid #DEDEDE;
+  padding: 0;}
+#sidebar a {
+  color: #555555;}
+#sidebar a:hover {
+  color: #DC1100;}
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;}
+.sidebar ul li {
+  background: url(https://dl.dropboxusercontent.com/u/79731666/mafiamax.com/sidebar-circle_wf.png) no-repeat center left;
+  margin: 0;
+  padding: 4px 0 4px 12px;
+  border-bottom: 1px solid #F5F5F5;
+  line-height: 1.4em;}
+.sidebar p {
+  margin: 0 0 10px 0;}
+.sidebar .widget {
+  margin: 10px 10px 10px 10px;
+  padding: 0;}
+#subscription-links {
+  margin: 0;
+  font-size: 12px;}
+#sidebar span.left-links {
+  float: left;
+  margin: 5px 0px 5px 0px;}
+#sidebar span.right-links {
+  float: right;
+  margin: 5px 60px 5px 0px;}
+
+/* Footer
+----------------------------------------------- */
+#footer-wrap {
+  font-size: 12px;
+  clear: both;
+  margin: 0;
+  padding: 10px 10px 10px 10px;
+  color: #DEDEDE;
+  text-align: center;
+  background:#222222;}
+#footer {}
+#footer hr {display: none;}
+#footer p {margin: 0;}
+#footer a {color: #FFFFFF;}
+#footer a:hover {
+  text-decoration: underline;
+  color: #DEDEDE;}
+
+/* AJAX Categories
+----------------------------------------------- */
+#indicator {
+  position: fixed;
+  z-index: 1000;
+  padding: 15px 0;
+  top: 40%;
+  background-color: #FFFFFF;
+  border: 3px solid #CCCCCC;
+  width: 250px;
+  left: 50%;
+  margin-left: -88px;
+  text-align: center;}
+#search-result {
+  border: 2px solid #C0C0C0;
+  margin: 10px 0 10px 0;
+  padding: 10px 10px 25px 10px;
+  font-size: 85%;
+  background-color: #FFFFDF;}
+.search-result-meta {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;}
+.search-result-meta img {
+  border-width: 0;
+  vertical-align: text-bottom;
+  margin: 0 5px 0 0;}
+.search-title {
+  margin: 5px 0px 5px 0;
+  padding: 0 5px 0 5px;
+  font-size: 12px;
+  border-top: 2px solid #000000;
+  background-color: #FFFFFF;
+  font-weight: bold;
+  text-align: left;}
+.search-cat {
+  display: block;
+  font-size: 10px;
+  margin: 5px 0px 5px 0px;
+  padding: 0 5px 0 5px;
+  border-bottom: 2px solid #000000;
+  background-color: #FFFFFF;
+  font-weight: bold;}
+.search-close, .search-close a {
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: #DC1100;
+  float: right;
+  margin-top: 0px;
+  cursor: pointer;}
+.search-result-nav {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 5px 0 5px 0;
+  text-align: center;}
